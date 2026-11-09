@@ -1,2 +1,8 @@
-.*
-!.gitignore
+# 1. Ignore everything inside this directory
+*
+
+# 2. But do not ignore the specific folder itself
+!bin/
+
+# 3. And do not ignore the README.md file
+!readme.md
